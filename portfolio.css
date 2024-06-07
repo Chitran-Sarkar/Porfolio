@@ -90,7 +90,7 @@ nav ul li a{
     z-index: 1;
 }
 nav li:hover{
-    transform: scale(2.3);
+    transform: scale(2);
     background-color:rgba(71, 61, 139, 0);
     z-index: 1;
 }
