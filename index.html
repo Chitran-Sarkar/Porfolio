@@ -3,87 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chitran Sarkar's Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css" >
+    <title>Chitran-Portfolio</title>
+    <link rel="stylesheet" href="side.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <div id="id">
-            <h1>Chitran Sarkar</h1>
-            <center><img src="20231222_100305.jpg" alt="Profile picture" height=25% width=25%></center>
-        </div>
-       <div class="sticky">
+        <h1>Chitran Sarkar&nbsp;<sup>Full-Stack Developer</sup></h1> 
         <nav>
-            <label for="navigation"><h2>Content</h2></label>
-            <ul id="navigation">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+            <ul>
+                <li><a href="#about"  class="active">Profile</a> &nbsp; |</li>
+                <li><a href="#skills">Skills</a> &nbsp; |</li>
+                <li><a href="#other">Soft Skills</a> &nbsp; |</li>
+                <li><a href="#projects">Projects</a> &nbsp; |</li>
+                <li><a href="#qualifications">Qualifications</a> &nbsp; |</li>
+                <li><a href="#experience">Experience</a> &nbsp; |</li>                
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#feedback">Feedback</a></li>
-            </ul> 
+            </ul>
         </nav>
-       </div>
-        <hr>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>I am a recent BSc graduate from <a href="https://www.behalacollege.in/website/"><b>BEHALA College</b></a>, where I specialized in Computer Science.<br> During my academic journey, I have gained a solid foundation in various programming languages and technologies, including <b>C, Shell Scripting, Data Structures and Algorithms (DSA), HTML, SQL, and Python.</b></p>
-            <p>My passion for computer science began at an early age, and I have pursued this interest throughout my educational career.<br> I completed my 10th grade from <a href="https://www.bdmi.org/"><b>B.D.M.I</b></a>, where I developed a strong foundation in Mathematics and Science.<br> Subsequently, I pursued my higher secondary education at <a href="http://sonarpur.futurecampusschool.in/"><b>Future Campus School</b></a>, further honing my skills and preparing myself for the challenges of a BSc program.</p>
+    <div class="container">
+        <div class="widths">
+        <div id="about" class="tabcontent active">
+            <center><img src="20231222_100305.jpg" alt="Profile picture"  height=300px width=200px ></center>
+            <h2>About Me</h2>           
+            <p>I am a recent BSc graduate from <b>CU</b>, where I specialized in Computer Science.<br> During my academic journey, I have gained a solid foundation in various programming languages and technologies.</p>
+            <p>My passion for computer science began at an early age, and I have pursued this interest throughout my educational career.</p>
             <p>Throughout my college years, I have actively participated in various coding competitions and hackathons, which have not only strengthened my problem-solving abilities but also provided me with opportunities to work in collaborative environments.<br> I have successfully completed several projects, including a web-based e-commerce platform, a database management system for a local library, and a Python-based data analysis tool.</p>
             <p>I am a quick learner, highly motivated, and always eager to expand my knowledge and skillset.<br> I thrive in dynamic environments that foster innovation and creativity.<br> My strong analytical and problem-solving skills, combined with my ability to work well in teams, make me an ideal candidate for roles in software development, data analysis, or web development.</p>
             <p>In addition to my technical expertise, I am an avid reader and an active participant in various extracurricular activities, which have helped me develop strong interpersonal and communication skills.</p>
             <p>I am excited about the prospect of embarking on a professional journey and contributing my skills and knowledge to a dynamic organization.<br> I am confident that my educational background, technical proficiency, and passion for computer science will enable me to make a meaningful impact in the field.</p>
-        </section>
-        <hr>
-        <section id="skills">
+        </div>
+    </div>
+    <div class="widthl">
+        <div id="skills" class="tabcontent">            
             <h2>Skills</h2>
-            <ul>
-                <li>Python language</li>
-                <li>c language</li>
-                <li>shell script</li>
-                <li>DSA(c)</li>
-                <li>SQL</li>
-                <li>Java</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java Script</li>
-                <li>Art</li>
-                <!-- Add more skills as needed -->
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill"><i class="fab fa-react"></i> React</div>
+                        <div class="skill"><i class="fab fa-bootstrap"></i>Bootstrap</div>
+                    </div>
+                </div>
+            
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div  class="skill"><i class="fas fa-database"></i> MongoDB</div>
+                        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+                        <div class="skill"><i class="fab fa-python"></i> Python</div>
+                        <div class="skill"><i class="fas fa-cogs"></i> DSA</div>
+                        <div class="skill"><i class="fas fa-code"></i> C</div>
+                        <div class="skill"><i class="fab fa-python"></i> Django</div>
+                        <div class="skill"><i class="fab fa-php"></i> PHP</div>
+                        <div class="skill"><i class="fas fa-server fa"></i>DevOps</div>
+                    </div>
+                </div>
+            
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <div class="skills-grid">
+                        <div class="skill"><i class="fab fa-git-alt"></i>Git</div>
+                        <div class="skill"><i class="fas fa-terminal fa"></i>Command Line</div>
+                        <div class="skill"><i class="fas fa-tasks fa"></i>Agile Methodologies</div>
+                        <div class="skill"><i class="fas fa-terminal"></i> Shell Scripting</div> 
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+        <div class="widths">
+        <div id="other" class="tabcontent">
+            <h2>Soft Skills</h2>
+            <ul class="skills-list">
+                <li> Painting &nbsp; &nbsp;<i class="fas fa-paint-brush"></i></li>
+                <li>Team Leadership</li>
+                <li>Project Management</li>
+                <li>Agile Methodologies</li>
+                <li>Communication</li>
             </ul>
-        </section>
-        <hr>
-        <section id="projects">
+        </div> 
+        </div>
+
+        <div class="widths">
+        <div id="projects" class="tabcontent">
             <h2>Projects</h2>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-                <!-- Add more projects as needed -->
-            </ul>
-        </section>
-        <hr>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: sarkarchitran@gmail.com</p>
-            <p>Phone: +91 9831089227</p>
-            <!-- Add more contact information as needed -->
-        </section>
-        <hr>
-        <section id="feedback">
-            <form action="submit.php">
-                <label for="feed"><h2>Feedback</h2></label>
-                <textarea id="feed" placeholder="Enter your valuable feedback" rows="20%" cols="50%"></textarea>
-                <br>
-                <button>submit</button>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>A web application for managing tasks built with React and Node.js.</p>
+                    <a href="https://github.com/johndoe/project-one" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>An e-commerce website built with Express and MongoDB.</p>
+                    <a href="https://github.com/johndoe/project-two" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="widths">   
+        <div id="qualifications" class="tabcontent">
+            <h2>Education Qualifications</h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p> <a href="https://www.behalacollege.in/website/">BEHALA College</a>,Calcutta University ,2025</p> 
+            <h3>Higher Secondary(10+2)</h3> 
+            <p><a href="http://sonarpur.futurecampusschool.in/">Future Campus School</a>,CBSE ,2022</p>
+            <h3>Secondary(10)</h3>
+            <p> <a href="https://www.bdmi.org/">B.D.M.I</a>,CBSE ,2020</p>
+        </div>
+    </div>
+    <div class="widths">
+        <div id="experience" class="tabcontent">
+            <h2>Experience</h2>
+                <ul class="experience-list">
+                    <li>Software Engineer at ABC Corp (2022-Present)</li>
+                    <li>Intern at DEF Ltd. (2021-2022)</li>
+                </ul>
+        </div>
+    </div>
+    <div class="widths">
+        <div id="contact" class="tabcontent">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name" name="name" size="50" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email"  placeholder="Email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send</button>
             </form>
-        </section>
-    </main>
-    <hr>
+        </div>
+    </div>
+    </div>
+
     <footer>
-        <p id="copy">&copy; 2023 Chitran Sarkar</p>
+        <div class="container1">
+            <p>&copy; 2024 Chitran Sarkar | <a href="#about">Back to top</a></p>
+        </div>
     </footer>
+
+    <script src="side.js"></script>
 </body>
 </html>
