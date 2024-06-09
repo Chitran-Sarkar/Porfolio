@@ -244,7 +244,10 @@ form {
 .skill i {
   font-size: 30px;
 }
-
+.form-group textarea{
+  height: 5%;
+  width:80%;
+}
 /* Adjust grid settings for different screen sizes */
 @media (max-width: 767px) {
   .skills-container {
