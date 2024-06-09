@@ -254,3 +254,6 @@ nav a.active {
   padding: 20px;
   border-radius: 5px;
 }
+#contact-form{
+  line-height: 10px;
+}
