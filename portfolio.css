@@ -12,8 +12,7 @@ h2{
   letter-spacing: 4px;
   font-size: 200%;
   color: rgb(93, 176, 9);
-  font-family: "Playwrite VN", cursive;
-  font-optical-sizing: auto;
+  font-family: "Berkshire Swash", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -62,9 +61,11 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 5px;
   line-height: 10px;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .tabcontent {
